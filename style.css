@@ -1,0 +1,279 @@
+/* Netflix red colour : rgb(229, 8, 21) or #E50815 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: #000;
+}
+
+.top-header{
+    height: 120vh;
+    background-image: url(IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+
+.container{
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.731);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+}
+
+nav .logo{
+    cursor: pointer;
+}
+
+.right-sec select{
+    background-color: rgba(0, 0, 0, 0.731);
+    padding: 7px 13px;
+    border: 0.3px solid #ffffff6f;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.right-sec button{
+    padding: 7px 13px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50815;
+    margin-left: 10px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    transition: 0.3s ease-in;
+}
+
+.right-sec button:hover{
+    background-color: #bf0613;
+}
+
+.content{
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .cont-1{
+    font-size: 3.2em;
+    font-weight: 900;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content .cont-2{
+    font-size: 1.4em;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content .cont-3{
+    font-size: 1.2em;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.email{
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email input{
+    width: 350px;
+    background-color: rgba(55, 55, 55, 0.486);
+    padding: 18px 13px;
+    border: 0.3px solid #ffffff6f;
+    border-radius: 5px;
+    color: #fff;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.email .button{
+    margin-left: 20px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #E50815;
+    cursor: pointer;
+    padding: 15px 13px;
+    transition: 0.4s ease-in;
+}
+
+.email .button:hover{
+    background-color: #bf0613;
+}
+
+.Card-section{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-sec .heading{
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+.content-sec .text-info{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.media-sec{
+    position: relative;
+
+}
+.media-sec video{
+    position: absolute;
+    top: 20%;
+    left: 80px;
+    z-index: -1;
+}
+.image{
+    overflow: hidden;
+}
+.card-3 .media-sec video{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 7%;
+    left: 110px;
+}
+
+.accordins{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7rem;
+    cursor: pointer;
+}
+
+.accordins .acco-head{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.accordins .accordins-strips{
+    display: flex;
+    flex-direction: column;
+}
+
+.accordins .accordins-strips .strip{
+    width: 1100px;
+    height: 86px;
+    padding: 1.5rem;
+    background-color: #2d2d2d;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    transition: 0.4s ease;
+}
+
+.accordins .accordins-strips .strip:hover{
+    background-color: #ffffff79;
+}
+
+.accordins .accordins-strips .strip i{
+    font-size: 30px;
+}
+
+.faq-email {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-email p{
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 90px 20px 90px 20px;
+    color: #2d2d2d;
+}
+
+footer .contact{
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+footer .contact span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .list-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .list-boxes ul{
+    list-style: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+footer .list-boxes ul li{
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+    font-weight: 100;
+}
+
+.middle-border{
+    height: 8px;
+    width: 100%;
+    background-color: #4b4848;
+}
+
+footer .netfix-india{
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
